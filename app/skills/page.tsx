@@ -38,7 +38,7 @@ export default function SkillsPage() {
     <div className="w-full min-h-screen bg-gradient-to-b from-black/70 to-gray-900/70 py-20 pt-32">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-16 text-center">
-          MY <span className="text-yellow-300">ARSENAL</span>
+          MY <span className="text-yellow-300">Projects</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -13,7 +13,7 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] w-full rounded-lg overflow-hidden border-2 border-yellow-300/30">
-              <Image src="/placeholder.svg?height=400&width=400" alt="Profile" fill className="object-cover" />
+              <Image src="/1695635302496.jpeg" alt="Profile" fill className="object-cover" />
             </div>
 
             <div className="space-y-6">
@@ -51,8 +51,13 @@ export default function AboutPage() {
                 </div>
                 <div className="bg-gray-800 p-4 rounded-lg">
                   <h4 className="text-yellow-300 font-bold mb-2">Experience</h4>
-                  <p className="text-sm text-gray-300">Web Developer Intern</p>
-                  <p className="text-xs text-gray-400">Wayne Enterprises, Summer 2023</p>
+                  <p className="text-sm text-gray-300">IEEE Computer Society</p>
+                  <p className="text-xs text-gray-400">IEEE CS Beauty of Cloud Project Chair / Industry Realation committee Member</p>
+                </div>
+                <div className="bg-gray-800 p-4 rounded-lg">
+                  <h4 className="text-yellow-300 font-bold mb-2">Experience</h4>
+                  <p className="text-sm text-gray-300">IEEE Computer Society</p>
+                  <p className="text-xs text-gray-400">Japura Extreme OC Member </p>
                 </div>
               </div>
             </div>

@@ -13,8 +13,8 @@ import Image from "next/image"
 function BatSignalFallback() {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center">
-      <div className="text-yellow-300 text-6xl font-bold mb-4">BATMAN DEV</div>
-      <div className="text-white text-xl">COMPUTER SCIENCE STUDENT</div>
+      <div className="text-yellow-300 text-6xl font-bold mb-4">Rusira Sandul</div>
+      <div className="text-white text-xl">COMPUTER SCIENCE UNDERGRADUATE</div>
     </div>
   )
 }
@@ -70,7 +70,7 @@ export default function Home() {
                     anchorX="center"
                     anchorY="middle"
                   >
-                    COMPUTER SCIENCE STUDENT
+                    COMPUTER SCIENCE UNDERGRADUATE
                   </Text>
                   <OrbitControls enableZoom={false} autoRotate autoRotateSpeed={0.5} />
                   <Environment preset="night" />
@@ -95,7 +95,7 @@ export default function Home() {
 
         <div className="absolute bottom-10 right-10 z-20 flex gap-4">
           <a
-            href="https://github.com"
+            href="https://github.com/rusirasandul"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-yellow-300"
@@ -133,7 +133,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] w-full rounded-lg overflow-hidden border-2 border-yellow-300/30">
-              <Image src="/placeholder.svg?height=400&width=400" alt="Profile" fill className="object-cover" />
+              <Image src="/1695635302496.jpeg" alt="Profile" fill className="object-cover" />
             </div>
 
             <div className="space-y-6">
