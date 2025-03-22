@@ -24,18 +24,18 @@ export default function Home() {
 
   const featuredProjects = [
     {
-      title: "Gotham Crime Tracker",
+      title: "Real Time Ticketing System",
       description:
-        "A full-stack application that visualizes crime data in Gotham City using React, Node.js, and MongoDB.",
-      image: "/placeholder.svg?height=300&width=500",
-      tags: ["React", "Node.js", "MongoDB"],
+        "A full-stack application that visualizes Tickets data that  user input using SpringBoot, Angular, and PostgreSQL.",
+      image: "/ckvqoq3jj00pcbbg1z5hp167u-dashboard-placeholder.one-half.png",
+      tags: ["Angular", "Springboot", "PostgreSQL"],
       link: "/projects",
     },
     {
-      title: "Batcomputer AI",
-      description: "An AI-powered assistant built with Python and TensorFlow. Implements natural language processing.",
-      image: "/placeholder.svg?height=300&width=500",
-      tags: ["Python", "TensorFlow", "NLP"],
+      title: "Beauty of Cloud",
+      description: "First Time in IEEE CS History, A Project that is done by IEEE CS University of Sri Jayewardhenepura. Acted as The Project Chair and Industry Relation Committee Member.",
+      image: "/OIP.jpeg",
+      tags: ["Leadership", "Cloud Technology", "Project Management"],
       link: "/projects",
     },
   ]

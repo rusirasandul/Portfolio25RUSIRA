@@ -76,7 +76,7 @@ export function BackgroundVideo() {
             poster="/placeholder.svg?height=1080&width=1920"
           >
             {/* Updated path to the user's video file */}
-            <source src="/Video/batman-gothams-guardian.1920x1080.mp4" type="video/mp4" />
+            <source src="/batman-the-dark-knight-symbol-moewalls-com.mp4" type="video/mp4" />
           </video>
         </div>
       ) : (
