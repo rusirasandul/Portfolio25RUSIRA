@@ -35,15 +35,13 @@ export default function AboutPage() {
                 expand my skill set.
               </p>
               <div className="pt-4">
-                <Button
-                  as="a"
+                <a
                   href="/Resume2025.pdf"
                   download
-                  variant="outline"
-                  className="bg-transparent border-yellow-300 text-yellow-300 hover:bg-yellow-300 hover:text-black"
+                  className="inline-block bg-transparent border border-yellow-300 text-yellow-300 hover:bg-yellow-300 hover:text-black px-4 py-2 rounded"
                 >
                   DOWNLOAD RESUME
-                </Button>
+                </a>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6">
