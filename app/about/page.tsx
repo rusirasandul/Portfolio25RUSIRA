@@ -1,11 +1,17 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { BatmanLayout } from "@/components/batman-layout"
+import { BackgroundVideo } from "@/components/background-video"
+import { Footer } from "@/components/footer"
 
 export default function AboutPage() {
   return (
     <BatmanLayout>
-      <div className="w-full min-h-screen bg-gradient-to-b from-black/70 to-gray-900/70 py-20 pt-32">
+      {/* Background Video */}
+      <BackgroundVideo />
+      
+      {/* Main Content */}
+      <div className="relative z-10 w-full min-h-screen bg-gradient-to-b from-black/70 to-gray-900/70 py-20 pt-32">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-16 text-center">
             <span className="text-yellow-300">ABOUT</span> ME
@@ -30,6 +36,9 @@ export default function AboutPage() {
               </p>
               <div className="pt-4">
                 <Button
+                  as="a"
+                  href="/Resume2025.pdf"
+                  download
                   variant="outline"
                   className="bg-transparent border-yellow-300 text-yellow-300 hover:bg-yellow-300 hover:text-black"
                 >
@@ -59,11 +68,24 @@ export default function AboutPage() {
                   <p className="text-sm text-gray-300">IEEE Computer Society</p>
                   <p className="text-xs text-gray-400">Japura Extreme OC Member </p>
                 </div>
+                <div className="bg-gray-800 p-4 rounded-lg">
+                  <h4 className="text-yellow-300 font-bold mb-2">Experience</h4>
+                  <p className="text-sm text-gray-300">IEEE Computer Society</p>
+                  <p className="text-xs text-gray-400">Japura Extreme OC Member </p>
+                </div>
+                <div className="bg-gray-800 p-4 rounded-lg">
+                  <h4 className="text-yellow-300 font-bold mb-2">Experience</h4>
+                  <p className="text-sm text-gray-300">IEEE Computer Society</p>
+                  <p className="text-xs text-gray-400">Japura Extreme OC Member </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <Footer />
     </BatmanLayout>
   )
 }
