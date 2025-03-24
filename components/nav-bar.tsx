@@ -36,7 +36,7 @@ export function NavBar() {
     >
       <div className="container mx-auto flex justify-between items-center px-4">
         <Link href="/" className="text-yellow-300 font-bold text-xl">
-          BATMAN DEV
+          Rusira Sandul
         </Link>
 
         <ul className="hidden md:flex space-x-8">

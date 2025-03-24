@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col items-center justify-center gap-6">
           <div className="flex gap-6">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/hwrs_2249/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-yellow-300 transition-colors"
@@ -15,7 +15,7 @@ export function Footer() {
               <InstagramIcon size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/rusira-sandul-b6bb87292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-yellow-300 transition-colors"
@@ -23,7 +23,7 @@ export function Footer() {
               <LinkedinIcon size={24} />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/rusirasandul"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-yellow-300 transition-colors"

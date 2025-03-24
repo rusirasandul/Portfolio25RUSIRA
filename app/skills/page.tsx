@@ -10,7 +10,7 @@ export default function SkillsPage() {
     {
       category: "Backend",
       icon: <Server className="w-6 h-6" />,
-      items: ["Node.js", "Express", "Python", "Java", "C++"],
+      items: ["Node.js", "Express", "Python", "Java", "C++" ,"Spring Boot"],
     },
     {
       category: "Database",
@@ -38,7 +38,7 @@ export default function SkillsPage() {
     <div className="w-full min-h-screen bg-gradient-to-b from-black/70 to-gray-900/70 py-20 pt-32">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-16 text-center">
-          MY <span className="text-yellow-300">Projects</span>
+          MY <span className="text-yellow-300">Skills</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -71,12 +71,18 @@ export default function SkillsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
-              { name: "JavaScript", level: 90 },
-              { name: "React", level: 85 },
+              { name: "C", level: 90 },
+              { name: "MySQL", level: 90 },
+              { name: "Java OOP", level: 90 },
+              { name: "HTML/CSS", level: 90 },
+              { name: "JavaScript", level: 70 },
+              { name: "React", level: 90 },
               { name: "Node.js", level: 75 },
-              { name: "Python", level: 80 },
-              { name: "Three.js", level: 65 },
-              { name: "Database Management", level: 70 },
+              { name: "Python", level: 90 },
+              { name: "Three.js", level: 50 },
+              { name: "PostgreSQL", level: 60 },
+              { name: "MongoDB", level: 70 },
+              { name: "Database Management", level: 90 },
             ].map((skill, index) => (
               <div key={index} className="space-y-2">
                 <div className="flex justify-between">

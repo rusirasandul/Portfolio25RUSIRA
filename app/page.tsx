@@ -11,10 +11,23 @@ import Image from "next/image"
 
 // Fallback component for when Three.js fails to load
 function BatSignalFallback() {
+  const titles = [
+    "Computer Science Undergraduate at University of Westminster",
+    "Physical Science Undergraduate at University of Sri Jayewardenepura",
+    
+  ]
+
   return (
     <div className="w-full h-full flex flex-col items-center justify-center">
       <div className="text-yellow-300 text-6xl font-bold mb-4">Rusira Sandul</div>
-      <div className="text-white text-xl">COMPUTER SCIENCE UNDERGRADUATE</div>
+      {titles.map((title, index) => (
+        <div
+          key={index}
+          className={`text-white text-xl title-animation title-${index + 1}`}
+        >
+          {title}
+        </div>
+      ))}
     </div>
   )
 }
@@ -70,7 +83,7 @@ export default function Home() {
                     anchorX="center"
                     anchorY="middle"
                   >
-                    COMPUTER SCIENCE UNDERGRADUATE
+                    COMPUTER SCIENCE UNDERGRADUATE AT UNIVERSITY OF WESTMINSTER
                   </Text>
                   <OrbitControls enableZoom={false} autoRotate autoRotateSpeed={0.5} />
                   <Environment preset="night" />
